@@ -1,0 +1,104 @@
+:root{
+  --red : #d01c28;
+  --grey : #5a5959;
+}
+
+* {
+  margin: 0;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0px auto;
+}
+
+button {
+  all: unset;
+  padding: 6px 16px;
+  background: var(--red);
+  color: white;
+  font-weight: 500;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 72px;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  font-weight: 500;
+}
+
+
+.hero {
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 72px);
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.hero h1 {
+  font-weight: 800;
+  font-size: 108px;
+  line-height: 102px;
+}
+
+.hero p {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--grey);
+  max-width: 400px;
+}
+
+.hero-btn {
+  display: flex;
+  gap: 40px;
+  font-size: 24px;
+}
+
+.secondary-btn {
+  background: transparent;
+  color: var(--grey);
+  border: #000000 1px solid;
+}
+
+.shopping {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.shopping p {
+  font-weight: 300;
+}
+
+
+.brand-icons {
+  display: flex;
+  gap: 16px;
+}
+
+
+/* hero-image */
+
+/* .hero-image {
+  width: 530px;
+  height: 488px;
+} */
