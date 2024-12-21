@@ -1,0 +1,14 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+    padding: 0 8px;
+}
+
+.navigation ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    font-weight: 500;
+}
