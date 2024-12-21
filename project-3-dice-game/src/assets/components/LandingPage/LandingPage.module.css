@@ -1,0 +1,14 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 1182px;
+}
+
+.hero_title_btn h1{
+    font-weight: 800;
+    font-size: 96px;
+}
+

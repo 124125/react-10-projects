@@ -1,0 +1,120 @@
+.control_panel {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1260px;
+    margin: 0 auto;
+    padding-top: 50px;
+    height: 170px;
+}
+
+
+.score_board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.score_board h1 {
+    font-size: 100px;
+    font-weight: 500;
+}
+
+.score_board p {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+/*  number selector */
+
+.number_selector {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.number_box {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    text-align: center;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    width: 72px;
+    border: 1px solid black;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+
+
+/* .number_box div {
+    display: block;
+    height: 72px;
+    width: 72px;
+    border: 1px solid black;
+    font-weight: 800;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    padding: 10px 0;
+} */
+
+
+
+
+
+/* dice */
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dice_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+}
+
+.dice_box p {
+    font-size: 24px;
+
+}
+
+.game_btns {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 220px;
+}
+
+
+.rules {
+    max-width: 800px;
+    margin: 25px auto;
+    background-color: #FBF1F1;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.rules h1 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.rules p {
+    font-size: 16px;
+    font-weight: 500;
+}
